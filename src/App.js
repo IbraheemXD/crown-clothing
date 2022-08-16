@@ -1,4 +1,5 @@
 import Directory from "./components/directory/directory.component";
+import Navigation from "./components/navigation-bar/navigation-bar.component";
 function App() {
 
   const categories = [
@@ -31,9 +32,10 @@ function App() {
   
 
   return (
-    <>
+    <div>
+    <Navigation />
     <Directory categories={categories} />
-    </>
+    </div>
   );
 }
 

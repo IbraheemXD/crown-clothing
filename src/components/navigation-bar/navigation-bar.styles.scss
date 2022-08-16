@@ -1,0 +1,28 @@
+.nav {
+    background: #fff;
+    color: #222;
+    height: 80px;
+    margin-bottom: 20px;
+    padding-inline: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 5px 5px #00000025;
+
+    &__links {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+
+        &-link a {
+            text-decoration: none;
+            color: #222;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
